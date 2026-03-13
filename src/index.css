@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+/* Prevent horizontal overflow / side gap on mobile zoom-out */
+html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 /* Custom fonts */
 @theme {
   --font-mono: 'Roboto Mono', monospace;
@@ -17,6 +23,7 @@ body {
   color: var(--color-charcoal);
   font-family: var(--font-mono);
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* Grunge Overlay */

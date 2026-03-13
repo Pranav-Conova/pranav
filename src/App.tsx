@@ -278,7 +278,7 @@ export default function App() {
         </defs>
       </svg>
 
-      <div ref={mainRef} className="min-h-screen relative circuit-bg pb-0">
+      <div ref={mainRef} className="min-h-screen relative circuit-bg pb-0 overflow-x-hidden">
         {/* Background Ink Splatters */}
         <div className="ink-splatter" style={{ top: '15%', left: '5%' }} />
         <div
